@@ -9,6 +9,7 @@ public class Main {
 
         dynArr.size();
         dynArr.add(harry);
+        dynArr.get(5);
         dynArr.add(snape);
         dynArr.add(snape);
         dynArr.add(snape);
@@ -19,10 +20,9 @@ public class Main {
         dynArr.add(martin);
         dynArr.add(hermione);
         dynArr.add(hermione);
-        dynArr.add(harry);
-        dynArr.add(snape);
-        dynArr.add(snape);
-        dynArr.add(snape);
+        dynArr.add(hermione);
+        dynArr.add(hermione);
+        dynArr.add(hermione);
         dynArr.add(snape);
         dynArr.add(snape);
         dynArr.add(snape);
@@ -30,10 +30,21 @@ public class Main {
         dynArr.add(martin);
         dynArr.add(hermione);
         dynArr.add(hermione);
+        dynArr.add(hermione);
+        dynArr.add(hermione);
+        dynArr.add(hermione);
+
         dynArr.size();
         dynArr.remove();
         dynArr.remove();
         dynArr.remove();
+        dynArr.remove();
+        dynArr.remove();
+        dynArr.add(hermione);
+        dynArr.remove();
         dynArr.size();
+        dynArr.clear();
+        dynArr.size();
+        dynArr.add(hermione);
     }
 }
