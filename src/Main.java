@@ -43,6 +43,8 @@ public class Main {
         dynArr.add(hermione);
         dynArr.remove();
         dynArr.size();
+        dynArr.remove(0);
+        dynArr.set(0, harry);
         dynArr.clear();
         dynArr.size();
         dynArr.add(hermione);
